@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LXFFindRecHeader" customModule="LXFFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="waT-r1-vQK">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cq6-l6-bRI">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="BxA-wg-2cc"/>
+                            </constraints>
+                        </view>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTx-om-oUZ"/>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="RTx-om-oUZ" firstAttribute="leading" secondItem="waT-r1-vQK" secondAttribute="leading" id="DE4-h3-Pgl"/>
+                        <constraint firstItem="RTx-om-oUZ" firstAttribute="top" secondItem="waT-r1-vQK" secondAttribute="top" constant="150" id="YHA-L3-jrq"/>
+                        <constraint firstItem="cq6-l6-bRI" firstAttribute="leading" secondItem="waT-r1-vQK" secondAttribute="leading" id="d3t-3B-hXl"/>
+                        <constraint firstAttribute="trailing" secondItem="cq6-l6-bRI" secondAttribute="trailing" id="dCY-ft-n5u"/>
+                        <constraint firstAttribute="bottom" secondItem="RTx-om-oUZ" secondAttribute="bottom" id="fp0-ic-CHU"/>
+                        <constraint firstAttribute="trailing" secondItem="RTx-om-oUZ" secondAttribute="trailing" id="fsc-AQ-Qwy"/>
+                        <constraint firstItem="cq6-l6-bRI" firstAttribute="top" secondItem="waT-r1-vQK" secondAttribute="top" id="nYP-UR-Pmm"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.90196078430000004" green="0.90588235289999997" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="waT-r1-vQK" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1Zc-cH-EJ8"/>
+                <constraint firstAttribute="trailing" secondItem="waT-r1-vQK" secondAttribute="trailing" id="5Rr-03-A9j"/>
+                <constraint firstAttribute="bottom" secondItem="waT-r1-vQK" secondAttribute="bottom" constant="10" id="KHZ-mX-t8r"/>
+                <constraint firstItem="waT-r1-vQK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dsT-5c-oQ8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="adverScrollView" destination="cq6-l6-bRI" id="42x-8r-qga"/>
+                <outlet property="cateScorllView" destination="RTx-om-oUZ" id="eCY-Iv-ePo"/>
+            </connections>
+            <point key="canvasLocation" x="109" y="-36"/>
+        </view>
+    </objects>
+</document>

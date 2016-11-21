@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="LXFFindRadioLiveCell" id="KGk-i7-Jjw" customClass="LXFFindRadioLiveCell" customModule="LXFFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="j0Y-5L-iWa">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58" id="Pcl-6G-MLG"/>
+                            <constraint firstAttribute="height" constant="58" id="WwU-Vg-ydT"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Iv-m3-Xly">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="eJ1-O1-6ay"/>
+                            <constraint firstAttribute="width" constant="32" id="s0f-hc-wky"/>
+                        </constraints>
+                        <state key="normal" image="liveRadioCellPlay"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播中：旧单车老情歌" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8M1-Uv-OD3">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="45e-bA-IZ6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="收听人数：79.4万人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p3u-sW-xcU">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="qNf-bh-vN6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京怀旧金曲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Loj-HC-8h3">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="3He-cg-Ydd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1qE-C0-5Gm">
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.92156862745098034" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="Csk-Fo-7w1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1qE-C0-5Gm" secondAttribute="bottom" id="9Lo-6k-cVl"/>
+                    <constraint firstItem="1qE-C0-5Gm" firstAttribute="leading" secondItem="p3u-sW-xcU" secondAttribute="leading" id="Cfd-Q4-E1s"/>
+                    <constraint firstItem="3Iv-m3-Xly" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EpF-LI-njU"/>
+                    <constraint firstItem="p3u-sW-xcU" firstAttribute="top" secondItem="8M1-Uv-OD3" secondAttribute="bottom" constant="5" id="Hf5-pC-m4H"/>
+                    <constraint firstAttribute="trailing" secondItem="1qE-C0-5Gm" secondAttribute="trailing" id="Hp7-oU-8Pd"/>
+                    <constraint firstItem="8M1-Uv-OD3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JqG-gz-1Pf"/>
+                    <constraint firstItem="p3u-sW-xcU" firstAttribute="width" secondItem="8M1-Uv-OD3" secondAttribute="width" id="Kvd-lm-hti"/>
+                    <constraint firstAttribute="trailing" secondItem="3Iv-m3-Xly" secondAttribute="trailing" constant="15" id="PrV-0D-ws8"/>
+                    <constraint firstItem="3Iv-m3-Xly" firstAttribute="leading" secondItem="8M1-Uv-OD3" secondAttribute="trailing" constant="30" id="V5x-Om-FuC"/>
+                    <constraint firstItem="j0Y-5L-iWa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Wee-mw-WpE"/>
+                    <constraint firstItem="Loj-HC-8h3" firstAttribute="leading" secondItem="8M1-Uv-OD3" secondAttribute="leading" id="b7R-zL-nur"/>
+                    <constraint firstItem="8M1-Uv-OD3" firstAttribute="width" secondItem="Loj-HC-8h3" secondAttribute="width" id="iCL-mV-bVp"/>
+                    <constraint firstItem="j0Y-5L-iWa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="p0b-Z2-4tK"/>
+                    <constraint firstItem="p3u-sW-xcU" firstAttribute="leading" secondItem="8M1-Uv-OD3" secondAttribute="leading" id="vla-zN-FXt"/>
+                    <constraint firstItem="8M1-Uv-OD3" firstAttribute="top" secondItem="Loj-HC-8h3" secondAttribute="bottom" constant="5" id="w1t-GP-9sv"/>
+                    <constraint firstItem="8M1-Uv-OD3" firstAttribute="leading" secondItem="j0Y-5L-iWa" secondAttribute="trailing" constant="8" id="z99-PW-6ap"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorL" destination="8M1-Uv-OD3" id="qV0-JH-6MJ"/>
+                <outlet property="coverImgView" destination="j0Y-5L-iWa" id="yLx-sP-gE4"/>
+                <outlet property="titleL" destination="Loj-HC-8h3" id="sNq-0U-264"/>
+                <outlet property="usersL" destination="p3u-sW-xcU" id="eZK-IQ-UNF"/>
+            </connections>
+            <point key="canvasLocation" x="87" y="40.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="liveRadioCellPlay" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LXFAnchorSignerCell" id="gTV-IL-0wX" customClass="LXFAnchorSignerCell" customModule="LXFFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7q3-fm-gIK">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="HAy-CX-j7H"/>
+                            <constraint firstAttribute="width" constant="50" id="k8p-D7-txw"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLI-7J-QgR">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="2Xy-9r-m4n"/>
+                            <constraint firstAttribute="width" constant="22" id="9R5-rj-xmW"/>
+                        </constraints>
+                        <state key="normal" image="np_headview_nofollow_n"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="华语男歌手，2013快乐男声冠军，少年偶像组合" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ih3-EJ-v2N">
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张学友" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsz-by-ZJt">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="4fA-nd-yq5"/>
+                            <constraint firstAttribute="width" constant="53" id="VQd-9L-ZJF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="me_fans_verifylogo" translatesAutoresizingMaskIntoConstraints="NO" id="SEo-z0-KDC">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="aNq-NP-2D2"/>
+                            <constraint firstAttribute="width" constant="17" id="ftR-a2-VF0"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="album_tracks" translatesAutoresizingMaskIntoConstraints="NO" id="ifP-wg-naz">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="Cmr-nu-fl5"/>
+                            <constraint firstAttribute="width" constant="13" id="mR4-Mc-xtv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgc-K6-y6e">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="SVD-Bp-ZRL"/>
+                            <constraint firstAttribute="width" constant="20" id="mo1-vb-t8s"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="find_hotUser_fans" translatesAutoresizingMaskIntoConstraints="NO" id="V6H-os-yXQ">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="13" id="0z7-eh-5eP"/>
+                            <constraint firstAttribute="height" constant="11" id="aJS-o7-IwV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.5万人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfx-fy-Meo">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="E7G-I6-IwF"/>
+                            <constraint firstAttribute="height" constant="10" id="Pbx-Is-egM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ifP-wg-naz" firstAttribute="leading" secondItem="7q3-fm-gIK" secondAttribute="trailing" constant="10" id="1b3-7B-LYX"/>
+                <constraint firstItem="lgc-K6-y6e" firstAttribute="leading" secondItem="ifP-wg-naz" secondAttribute="trailing" constant="2" id="4zY-uL-f5Y"/>
+                <constraint firstItem="V6H-os-yXQ" firstAttribute="centerY" secondItem="lgc-K6-y6e" secondAttribute="centerY" id="65f-Ho-itc"/>
+                <constraint firstItem="SEo-z0-KDC" firstAttribute="centerY" secondItem="Xsz-by-ZJt" secondAttribute="centerY" id="7ZL-GG-lo5"/>
+                <constraint firstItem="Ih3-EJ-v2N" firstAttribute="leading" secondItem="7q3-fm-gIK" secondAttribute="trailing" constant="10" id="7iD-kb-7gs"/>
+                <constraint firstItem="ifP-wg-naz" firstAttribute="top" secondItem="Ih3-EJ-v2N" secondAttribute="bottom" constant="10" id="8lh-Ia-nyI"/>
+                <constraint firstItem="Xsz-by-ZJt" firstAttribute="leading" secondItem="7q3-fm-gIK" secondAttribute="trailing" constant="10" id="De8-8o-paY"/>
+                <constraint firstItem="lgc-K6-y6e" firstAttribute="centerY" secondItem="ifP-wg-naz" secondAttribute="centerY" id="Dr3-oq-ir0"/>
+                <constraint firstItem="7q3-fm-gIK" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="I9L-F9-dnr"/>
+                <constraint firstItem="7q3-fm-gIK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="QER-nJ-FkQ"/>
+                <constraint firstAttribute="trailing" secondItem="vLI-7J-QgR" secondAttribute="trailing" constant="20" id="SCJ-4d-UJX"/>
+                <constraint firstItem="SEo-z0-KDC" firstAttribute="leading" secondItem="Xsz-by-ZJt" secondAttribute="trailing" constant="5" id="XgG-7f-vcY"/>
+                <constraint firstItem="mfx-fy-Meo" firstAttribute="centerY" secondItem="V6H-os-yXQ" secondAttribute="centerY" id="aia-1B-Y8Q"/>
+                <constraint firstItem="Ih3-EJ-v2N" firstAttribute="top" secondItem="Xsz-by-ZJt" secondAttribute="bottom" constant="6" id="dke-U2-oA3"/>
+                <constraint firstItem="vLI-7J-QgR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="kd2-Od-gv4"/>
+                <constraint firstItem="vLI-7J-QgR" firstAttribute="leading" secondItem="Ih3-EJ-v2N" secondAttribute="trailing" constant="10" id="nJV-Hj-Mdk"/>
+                <constraint firstItem="Ih3-EJ-v2N" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="tLE-K6-0Ip"/>
+                <constraint firstItem="V6H-os-yXQ" firstAttribute="leading" secondItem="lgc-K6-y6e" secondAttribute="trailing" constant="5" id="tzo-cR-H2d"/>
+                <constraint firstItem="mfx-fy-Meo" firstAttribute="leading" secondItem="V6H-os-yXQ" secondAttribute="trailing" constant="2" id="uRH-tn-LRg"/>
+            </constraints>
+            <connections>
+                <outlet property="albumNumL" destination="lgc-K6-y6e" id="YFY-33-7gM"/>
+                <outlet property="attentionL" destination="vLI-7J-QgR" id="TAV-2e-lYV"/>
+                <outlet property="fansNumL" destination="mfx-fy-Meo" id="Ngf-kj-dhj"/>
+                <outlet property="iconImgView" destination="7q3-fm-gIK" id="10v-17-B9V"/>
+                <outlet property="introlL" destination="Ih3-EJ-v2N" id="hq7-mP-onU"/>
+                <outlet property="titleL" destination="Xsz-by-ZJt" id="lF3-Jv-ajF"/>
+                <outlet property="userNameWidthConstraint" destination="VQd-9L-ZJF" id="IJ9-Wy-aEx"/>
+            </connections>
+            <point key="canvasLocation" x="22" y="4.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="album_tracks" width="10" height="10"/>
+        <image name="find_hotUser_fans" width="10" height="9"/>
+        <image name="me_fans_verifylogo" width="16" height="16"/>
+        <image name="np_headview_nofollow_n" width="23" height="36"/>
+    </resources>
+</document>

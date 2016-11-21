@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LXFAnchorHeaderView" id="9E3-gV-HpP" customClass="LXFAnchorHeaderView" customModule="LXFFM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="findsection_logo" translatesAutoresizingMaskIntoConstraints="NO" id="aUk-Fu-v1d">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="CTi-Fe-OjO"/>
+                        <constraint firstAttribute="width" constant="8" id="ilm-pd-cN1"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOe-Mb-2oA">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="4hZ-U9-RGC"/>
+                    </constraints>
+                    <state key="normal" image="liveRadioSectionMore_Normal"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="情感生活" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B64-10-i41">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="URc-Ak-QwI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dOe-Mb-2oA" firstAttribute="leading" secondItem="9E3-gV-HpP" secondAttribute="leading" constant="10" id="67M-CD-r8i"/>
+                <constraint firstItem="aUk-Fu-v1d" firstAttribute="leading" secondItem="9E3-gV-HpP" secondAttribute="leading" constant="10" id="7Tp-9c-w9Z"/>
+                <constraint firstItem="dOe-Mb-2oA" firstAttribute="centerY" secondItem="9E3-gV-HpP" secondAttribute="centerY" id="9qu-U1-qjk"/>
+                <constraint firstItem="aUk-Fu-v1d" firstAttribute="centerY" secondItem="9E3-gV-HpP" secondAttribute="centerY" id="Aih-n7-tnW"/>
+                <constraint firstItem="B64-10-i41" firstAttribute="centerY" secondItem="9E3-gV-HpP" secondAttribute="centerY" id="aea-C4-x5c"/>
+                <constraint firstItem="B64-10-i41" firstAttribute="leading" secondItem="aUk-Fu-v1d" secondAttribute="trailing" constant="5" id="jH1-vm-eqH"/>
+                <constraint firstAttribute="trailing" secondItem="B64-10-i41" secondAttribute="trailing" constant="80" id="oz8-Uu-ihq"/>
+                <constraint firstAttribute="trailing" secondItem="dOe-Mb-2oA" secondAttribute="trailing" constant="10" id="vtG-XM-eji"/>
+            </constraints>
+            <connections>
+                <outlet property="moreBtn" destination="dOe-Mb-2oA" id="YMd-Dj-l55"/>
+                <outlet property="titleL" destination="B64-10-i41" id="mEv-6C-nNn"/>
+            </connections>
+            <point key="canvasLocation" x="-15" y="222"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="findsection_logo" width="8" height="10"/>
+        <image name="liveRadioSectionMore_Normal" width="34" height="12"/>
+    </resources>
+</document>

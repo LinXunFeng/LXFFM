@@ -8,4 +8,5 @@ pod 'SDCycleScrollView','~> 1.64'
 pod 'HandyJSON', '~> 1.2.1'
 pod 'SwiftyJSON'
 pod 'DZNEmptyDataSet'
+pod 'MJExtension'
 end
